@@ -31,3 +31,21 @@ function reversa(str) {
   
   console.log(stringreverso);  
   
+//   // function reves(str){
+//     let tmpStr="";
+//     for (let indice = str.length-1; indice--){
+//         tmpStr +- str.charAt(indice);
+
+//     }
+//     return tmpStr;
+//   }
+
+function esPalindromo(str) {
+    str=str.toLowerCase();
+    if(reversa(str)==str)
+        return true;
+    return false;
+}
+str = 'mili';
+stringreverso = esPalindromo(str);
+console.log(stringreverso);
